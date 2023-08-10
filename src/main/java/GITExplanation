@@ -1,0 +1,44 @@
+1. tell git who ur 
+
+git config --global user.name "arun"
+git config --global user.email "arukumar.m5395@gmail.com
+
+2. Create a folder in arunkumar directory(local machine) as GitSelenium and paste the projects which stored from eclipse.
+
+3. enter the created folder name in CMD prompt as cd GitSelenium
+4.Enter git init(need to initialise the folder to to git or initialise it as Git repository)
+
+5.Commit (Create 100 files and we know 80 files ready to push github and 20 files we dont want to commit right now)
+
+6. git add *(* represents all the code to commit in the git repo or if only giving git add then need to provide only the required file name.
+
+7. git status (used to see what are all the files added to the stash/staging)
+
+8.Enter git commit -m "first commit" (m stands for message)
+
+9.Connect to a remote repostitory (git remote add origin https://github.com/Arun99M/selenium.git)we need to give the git origin to connect remote repository with local repo.
+
+10.  git push origin master  (need to push the code to git repo and origin refers to the git origin and master is a branch)
+
+11.git clone (it is nothing but it downloads the fresh code from the git this for the 1st time)
+
+IF WE have 2 teammates working on same project.
+
+1. git pull origin master (from 2nd time only the code need to fetch which is updated one)
+
+
+BRANCHING:
+
+1.git checkout -b develop (b stand for create a new branch )
+
+2.git branch (it is used for to check the which branch we were in)
+
+3.git push origin develop  (used to move the code to develop)
+
+4.git pull origin develop (used to downlaod the code which made by other team person).
+
+5. git checkout develop (switch the branch from master to develop)
+
+6. git merge develop (the code will merge master branch   --- differnet branch code will merge into active branch)
+
+7.
